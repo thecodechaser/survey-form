@@ -15,19 +15,44 @@
      <div id="formDiv">
         <form id="form">
        <label for="name">Name</label><br>
-       <input type="text" id="inputField" placeHolder="Enter your name"></inpput><br>
+       <input type="text" id="name" placeHolder="Enter your name"></inpput><br>
        <label for="Email">Email</label><br>
-       <input type="text" id="inputField" placeHolder="Enter your email"></inpput><br>
+       <input type="text" id="Email" placeHolder="Enter your email"></inpput><br>
        <label for="name" min="10" max="99">Age</label><br>
-       <input type="number" id="inputField" placeHolder="Enter your age"></inpput><br>
-       <label for="name">name</label><br>
-      <select id="select"> 
+       <input type="number" id="age" placeHolder="Enter your age"></inpput><br>
+      <select id="select"> Which option best describes your current role?
         <option value="student" >Student</option>
         <option value="Full time job">Full time job</option>
         <option value="Full time learner">Full time learne</option>
         <option value="Prefer not to say">Prefer not to say</option>
         <option value="Other">Other</option>
       </select>
+      <label>Would you recommend freeCodeCamp to a friend</label></br>
+      <input type="radio" id="definitely" checked name="recommend" value="definitely">
+      <label for="definitely">definitely</label></br>
+      <input type="radio" id="maybe" name="recommend" value="maybe">
+      <label for="maybe">maybe</label></br>
+      <input type="radio" id="Not sure" name="recommend" value="Not sure">
+      <label for="Not sure">Not sure</label></br>
+
+      <select name="favorite" id="">
+        <option value="Chalenges">Chalenges</option>
+        <option value="Project">Project</option>
+        <option value="Community">Community</option>
+        <option value="Open Source">Open Source</option>
+      </select>
+
+      <label>What would you like to see improved?<small>(Check all that apply)</small> </label><br>
+      <input type="checkbox" class="recommend"> Front-end Projects<br>
+      <input type="checkbox" class="recommend"> Back-end Projects<br>
+      <input type="checkbox" class="recommend"> Data Visualization<br>
+      <input type="checkbox" class="recommend"> Challenges<br>
+      <input type="checkbox" class="recommend"> Open Source Community<br>
+      <input type="checkbox" class="recommend">
+<label>Any comments or suggestions?</label><br><br>
+      <textarea class="input-textarea" rows="10" cols="50"></textarea>
+      <br><br>
+      <input type="submit" class="submit_btu align-center input-text">
      </form>
     </div>
       </div>
