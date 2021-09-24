@@ -11,16 +11,19 @@
     <section id="mainContener">
       <div id="divMain">
         <h1 id="title" class="align-center">freeCodeCamp Survey Form</h1>
-        <p id="p-divMain" class="align-center">Thank you for taking the time to help us improve the platform</p>
+        <p id="description" class="align-center">Thank you for taking the time to help us improve the platform</p>
      <div id="formDiv">
-        <form id="form">
-       <label for="name">Name</label><br>
-       <input type="text" id="name" placeHolder="Enter your name" class="inputField"></inpput><br>
-       <label for="Email">Email</label><br>
-       <input type="text" id="Email" placeHolder="Enter your email" class="inputField"></inpput><br>
-       <label for="name" min="10" max="99">Age</label><br>
-       <input type="number" id="age" placeHolder="Enter your age" class="inputField"></inpput><br>
-      <select id="select" class="inputField"> Which option best describes your current role?
+        <form id="survey-form">
+       <label for="name" id="name-label">Name</label><br>
+       <input type="text" id="name" placeHolder="Enter your name" required ></inpput><br>
+       <label for="email" id="email-label">Email</label><br>
+       <input type="email" id="email" placeHolder="Enter your email" required></inpput><br>
+       <label for="number" id="number-label">Age (Optional)</label><br>
+       <input type="number" id="number"  min="10" max="99" placeHolder="Enter your age" required></inpput><br>
+
+       <label>Which option best describes your current role?</label>
+      <select id="dropdown" > 
+        <option value="" selected>Select current role</option>
         <option value="student" >Student</option>
         <option value="Full time job">Full time job</option>
         <option value="Full time learner">Full time learne</option>
@@ -29,11 +32,11 @@
       </select>
       <label>Would you recommend freeCodeCamp to a friend</label></br>
       <input type="radio" id="definitely" checked name="recommend" value="definitely">
-      <label for="definitely">definitely</label></br>
+      <label class="radio" for="definitely">definitely</label></br>
       <input type="radio" id="maybe" name="recommend" value="maybe">
-      <label for="maybe">maybe</label></br>
+      <label class="radio" for="maybe">maybe</label></br>
       <input type="radio" id="Not sure" name="recommend" value="Not sure">
-      <label for="Not sure">Not sure</label></br>
+      <label class="radio" for="Not sure">Not sure</label></br>
 
       <select name="favorite" id="">
         <option value="Chalenges">Chalenges</option>
@@ -43,20 +46,20 @@
       </select>
 
       <label>What would you like to see improved?<small>(Check all that apply)</small> </label><br>
-      <input type="checkbox" class="recommend"><span> Front-end Projects</span><br>
-      <input type="checkbox" class="recommend"><span> Back-end Projects</span><br>
-      <input type="checkbox" class="recommend"><span> Data Visualization</span><br>
-      <input type="checkbox" class="recommend"> <span> Challenges</span><br>
-      <input type="checkbox" class="recommend"><span> Gitter help rooms</span><br>
-      <input type="checkbox" class="recommend"><span> Videos</span><br>
-      <input type="checkbox" class="recommend"><span> City Meetups</span><br>
-      <input type="checkbox" class="recommend"><span> Wiki</span><br>
-      <input type="checkbox" class="recommend"><span> Forum</span><br>
-      <input type="checkbox" class="recommend"><span> Additional courses</span><br>
-<label>Any comments or suggestions?</label><br><br>
+      <input type="checkbox" class="recommend" value="front-end"><span> Front-end Projects</span><br>
+      <input type="checkbox" class="recommend" value="back-end"><span> Back-end Projects</span><br>
+      <input type="checkbox" class="recommend" value="data Visualization"><span> Data Visualization</span><br>
+      <input type="checkbox" class="recommend" value="challenges"> <span> Challenges</span><br>
+      <input type="checkbox" class="recommend" value="gitter help rooms"><span> Gitter help rooms</span><br>
+      <input type="checkbox" class="recommend" value="videos"><span> Videos</span><br>
+      <input type="checkbox" class="recommend" value="city meetups"><span> City Meetups</span><br>
+      <input type="checkbox" class="recommend" value="wiki"><span> Wiki</span><br>
+      <input type="checkbox" class="recommend" value="forum"><span> Forum</span><br>
+      <input type="checkbox" class="recommend" value="additional courses"><span> Additional courses</span><br>
+      <label>Any comments or suggestions?</label><br><br>
       <textarea class="textarea" rows="10" cols="50"></textarea>
       <br><br>
-      <input type="submit" class="submit align-center inputField">
+      <input type="submit" id="submit" class="submit align-center inputField">
      </form>
     </div>
       </div>
