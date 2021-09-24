@@ -21,3 +21,36 @@
     height: 100%;
     background-color: rgba(52, 52, 175, 0.6);
 }
+
+#divMain{
+    position: absolute;
+    top: 60px;
+    width: 60%;
+    margin: 0 auto;
+    left: 20%;
+}
+ .align-center{
+     text-align: center;
+    color: white;
+  font-family:  'Poppins', sans-serif;
+ }
+
+ #title{
+
+     font-size: 35px;
+ }
+
+ #p-divMain{
+     padding-top: 10px;
+ }
+
+ #formDiv{
+
+     background-color: rgba(27, 27, 50, 0.8);
+ }
+
+ label{
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+ }
