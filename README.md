@@ -1,5 +1,59 @@
-# FCC Test Suite Template
+![](https://img.shields.io/badge/thecodechaser-blueviolet)
 
-**Fork** this project (do not open a Pull Request) to start working on any of freeCodeCamp's responsive web design course projects. Select the project from the dropdown menu and run the tests to see which requirements your project is still missing.
+# Survey Form
 
-You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
+> Survey Form.
+
+## Screenshots:
+
+![screenshot](./images/Screenshot1.png)
+
+![screenshot](./images/Screenshot2.png)
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+
+## Online live link
+
+[Visit project online](https://thecodechaser.github.io/survey-form/)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+## Visit And Open Files
+
+[Visit Repo](https://github.com/thecodechaser/survey-form)
+
+## Download Repo
+
+[Download Repo](https://github.com/thecodechaser/survey-form/archive/refs/heads/main.zip)
+
+## Authors
+
+👤 **Ranjeet Singh**
+
+- GitHub: [@githubhandle](https://github.com/thecodechaser)
+- Twitter: [@twitterhandle](https://twitter.com/thecodechaser)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/thecodechaser)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/thecodechaser/survey-form/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspiration: Microverse
+
+## 📝 License
+
+This project is [Licensed](./license.txt) licensed.
