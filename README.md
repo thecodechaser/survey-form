@@ -2,7 +2,7 @@
 
 # Survey Form
 
-> Survey Form.
+> Survey Form is a website that contains form of input, checkboxes, radio buttons. It asks the user to fill a survey and takes the user's input to improve the services.
 
 ## Screenshots:
 
